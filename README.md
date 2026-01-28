@@ -18,10 +18,9 @@ This app folder consists
 
 Working in postman and MongoDb:
 
-GET : http://localhost:8000/api/recipes - at first gives an empty []. After POST,PUT,DELETE req we can gat the dynamically updated data from db.
+GET : https://node-recipe-app-vsif.onrender.com/api/recipes - at first gives an empty []. After POST,PUT,DELETE req we can gat the dynamically updated data from db.
 
-POST: http://localhost:8000/api/recipes->body->raw: giving dummy data-> helps in creataion of record in [] using create(). after this if we use get req to fetch,the data is read and viewwed in postman and db dynamically
+POST: https://node-recipe-app-vsif.onrender.com/api/recipes  ->body->raw: giving dummy data-> helps in creataion of record in [] using create(). after this if we use get req to fetch,the data is read and viewwed in postman and db dynamically
+https://node-recipe-app-vsif.onrender.com/api/recipes/_id  based on id we can update the record  using findByIdAndUpdate(). if found:it updates the data. if id is not match shows 404 with err message as recipe not foundand. And it gets dynamically updated in postman and db
 
-PUT : http://localhost:8000/api/recipes/_id- based on id we can update the record  using findByIdAndUpdate(). if found:it updates the data. if id is not match shows 404 with err message as recipe not foundand. And it gets dynamically updated in postman and db
-
-DELETE: http://localhost:8000/api/recipes/_id- based on id it filter the data using findByIdAndDelete()  it delets the data is found and returns a msg:recipe deleted sucessfully. if id is not match shows 404 with err message as recipe not found
+DELETE: https://node-recipe-app-vsif.onrender.com/api/recipes/_id- based on id it filter the data using findByIdAndDelete()  it delets the data is found and returns a msg:recipe deleted sucessfully. if id is not match shows 404 with err message as recipe not found
