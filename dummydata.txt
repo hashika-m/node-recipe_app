@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Pancakes",
+    "ingredients": ["flour", "milk", "egg", "sugar", "butter"],
+    "instructions": "Mix ingredients, pour batter on pan, cook both sides.",
+    "cookingTime": 15
+  },
+  {
+    "title": "Chicken Curry",
+    "ingredients": ["chicken", "onion", "tomato", "spices", "oil"],
+    "instructions": "Cook onions and spices, add chicken and tomato, simmer well.",
+    "cookingTime": 40
+  },
+  {
+    "title": "Vegetable Salad",
+    "ingredients": ["lettuce", "cucumber", "tomato", "olive oil", "salt"],
+    "instructions": "Chop vegetables and mix with dressing.",
+    "cookingTime": 10
+  },
+  {
+    "title": "Pasta Alfredo",
+    "ingredients": ["pasta", "cream", "garlic", "cheese", "butter"],
+    "instructions": "Cook pasta, prepare sauce, mix together.",
+    "cookingTime": 25
+  }
+]
